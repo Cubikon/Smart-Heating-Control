@@ -1,6 +1,6 @@
 {
   "common": {
-    "name": "heatingcontrol",
+    "name": "smartheating",
     "version": "0.0.1",
     "title": "Smart Heating Control",
     "desc": "Dummy Adapter für Heizungssteuerung",
