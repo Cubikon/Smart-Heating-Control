@@ -1,0 +1,14 @@
+{
+  "name": "iobroker.heatingcontrol",
+  "version": "0.0.1",
+  "description": "Heizungssteuerung mit Matrix, Ventilen, Vorlaufregelung und InfluxDB",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Dein Name",
+  "license": "MIT",
+  "dependencies": {
+    "@iobroker/adapter-core": "^4.2.2"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "common": {
+    "name": "heatingcontrol",
+    "version": "0.0.1",
+    "title": "Heating Control Adapter",
+    "platform": "Javascript/Node.js",
+    "mode": "daemon",
+    "materialize": true,
+    "adminTabs": [
+      {
+        "name": "rooms",
+        "caption": "Räume"
+      }
+    ],
+    "keywords": ["heating","matrix","ventile","flow"],
+    "loglevel": "info"
+  },
+  "native": {
+    "rooms": [
+      {
+        "name": "Wohnzimmer",
+        "sensor": "",
+        "targetSensor": "",
+        "windowContact": "",
+        "ventilIds": [],
+        "matrixState": "",
+        "circuit": 1
+      }
+    ],
+    "circuits": {
+      "0": { "tempMin": "", "tempMax": "", "returnTemp": "" },
+      "1": { "tempMin": "", "tempMax": "", "returnTemp": "" }
+    },
+    "flowMin": 30,
+    "flowMax": 65,
+    "influxEnabled": true,
+    "influxMeasurement": "heating"
+  }
+}

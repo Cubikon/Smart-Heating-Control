@@ -1,0 +1,32 @@
+<div class="form-group">
+    <label>Räume konfigurieren:</label>
+    <table id="roomsTable" class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Temperatursensor</th>
+                <th>Target Sensor</th>
+                <th>Fensterkontakt</th>
+                <th>Ventile (Komma getrennt)</th>
+                <th>Matrix State</th>
+                <th>Circuit</th>
+                <th>Aktionen</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <button id="addRoom" class="btn btn-primary">Raum hinzufügen</button>
+</div>
+
+<div class="form-group">
+    <label>Heizkreise konfigurieren (Objekte)</label>
+    <textarea id="circuits" style="width:100%; height:100px;" placeholder="JSON Format"></textarea>
+</div>
+
+<div class="form-group">
+    <label><input type="checkbox" id="influxEnabled"> InfluxDB aktivieren</label>
+</div>
+<div class="form-group">
+    <label for="influxMeasurement">Influx Measurement:</label>
+    <input type="text" id="influxMeasurement">
+</div>
