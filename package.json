@@ -1,5 +1,5 @@
 {
-  "name": "iobroker.heatingcontrol",
+  "name": "iobroker.smartheating",
   "version": "0.0.1",
   "description": "Heizungssteuerung mit Matrix, Ventilen, Vorlaufregelung und InfluxDB",
   "main": "main.js",
