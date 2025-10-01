@@ -2,38 +2,23 @@
   "common": {
     "name": "heatingcontrol",
     "version": "0.0.1",
-    "title": "Heating Control Adapter",
+    "title": "Smart Heating Control",
+    "desc": "Dummy Adapter für Heizungssteuerung",
+    "authors": [
+      "Dein Name <dein.email@example.com>"
+    ],
     "platform": "Javascript/Node.js",
     "mode": "daemon",
     "materialize": true,
-    "adminTabs": [
-      {
-        "name": "rooms",
-        "caption": "Räume"
-      }
-    ],
-    "keywords": ["heating","matrix","ventile","flow"],
-    "loglevel": "info"
+    "loglevel": "info",
+    "license": "MIT",
+    "readme": "README.md",
+    "icon": "admin/admin.png",
+    "extIcon": "admin/admin.png",
+    "admin": "admin/src/Config.html",
+    "enabled": true
   },
-  "native": {
-    "rooms": [
-      {
-        "name": "Wohnzimmer",
-        "sensor": "",
-        "targetSensor": "",
-        "windowContact": "",
-        "ventilIds": [],
-        "matrixState": "",
-        "circuit": 1
-      }
-    ],
-    "circuits": {
-      "0": { "tempMin": "", "tempMax": "", "returnTemp": "" },
-      "1": { "tempMin": "", "tempMax": "", "returnTemp": "" }
-    },
-    "flowMin": 30,
-    "flowMax": 65,
-    "influxEnabled": true,
-    "influxMeasurement": "heating"
-  }
+  "native": {},
+  "objects": [],
+  "instanceObjects": []
 }

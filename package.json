@@ -9,6 +9,6 @@
   "author": "Cubikon",
   "license": "MIT",
   "dependencies": {
-    "@iobroker/adapter-core": "^3.2.3"
+    "@iobroker/adapter-core": "^3.3.2"
   }
 }
