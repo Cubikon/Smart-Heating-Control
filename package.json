@@ -6,9 +6,9 @@
   "scripts": {
     "start": "node main.js"
   },
-  "author": "Dein Name",
+  "author": "Cubikon",
   "license": "MIT",
   "dependencies": {
-    "@iobroker/adapter-core": "^4.2.2"
+    "@iobroker/adapter-core": "^3.2.3"
   }
 }
